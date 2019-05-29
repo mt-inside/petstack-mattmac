@@ -7,21 +7,11 @@
 * Install homebrew
 * Clone githome
   * Follow instructions
+* Install puppet
+  * puppet module install thekevjames-homebrew
 
 # Brew packages
-bash
-bash-completion
-git
-vim
-terraform
-rustup-init
-golang
-hugo
-node
-htop
-kubernetes-cli
-helm
-jq
+under puppet
 
 # Golang
 kind
