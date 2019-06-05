@@ -28,6 +28,7 @@ $pkgs = [
 
 $casks = [
   'vagrant',
+  'google-cloud-sdk',
 ]
 
 package { $pkgs:
