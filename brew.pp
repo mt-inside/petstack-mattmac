@@ -22,6 +22,8 @@ $pkgs = [
   'qemu',
   'mdcat',
   'socat',
+  'wget',
+  'youtube-dl',
 ]
 
 $casks = [
