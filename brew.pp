@@ -22,10 +22,12 @@ $pkgs = [
   'jq',
   'qemu',
   'mdcat',
+  'openvpn',
   'prettyping',
   'socat',
   'wget',
   'youtube-dl',
+  'yq',
 ]
 
 $casks = [
