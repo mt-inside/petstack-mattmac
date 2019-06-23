@@ -24,6 +24,7 @@ $pkgs = [
   'mdcat',
   'openvpn',
   'prettyping',
+  'pwgen',
   'socat',
   'wget',
   'youtube-dl',
