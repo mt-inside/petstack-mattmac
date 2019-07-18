@@ -13,6 +13,7 @@ $pkgs = [
   'terraform',
   'rustup-init',
   'golang',
+  'gpg',
   'hugo',
   'node',
   'htop',
@@ -38,6 +39,10 @@ $casks = [
   'vagrant',
   'google-cloud-sdk',
 ]
+
+/* Taps
+* linuxkit/linuxkit --HEAD
+*/
 
 package { $pkgs:
   ensure   => present,
