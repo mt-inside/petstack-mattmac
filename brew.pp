@@ -25,6 +25,7 @@ $pkgs = [
   'jq',
   'qemu',
   'mdcat',
+  'mtr',
   'openvpn',
   'packer',
   'prettyping',
