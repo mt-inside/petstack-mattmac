@@ -12,6 +12,7 @@ $pkgs = [
   'vim',
   'terraform',
   'rustup-init',
+  'exa',
   'golang',
   'gpg',
   'hugo',
