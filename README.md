@@ -1,3 +1,6 @@
+# TODO
+* fix this provider to use brew  https://github.com/voxpupuli/puppet-nodejs
+
 # Prereqs
 * Change hostname
 * Copy over ssh priv key only; mode 0400
