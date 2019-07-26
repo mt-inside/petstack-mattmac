@@ -13,6 +13,7 @@ $pkgs = [
   'terraform',
   'rustup-init',
   'exa',
+  'get_iplayer',
   'golang',
   'gpg',
   'hugo',
