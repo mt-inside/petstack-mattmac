@@ -15,6 +15,7 @@ $pkgs = [
   'gpg',
   'htop',
   'hugo',
+  'hyperkit', # docker-for-mac provides an ancient version of this, and puts it in /usr/local/bin too. We install this over the top, which doesnt seem to break docker-for-mac
   'imagemagick',
   'istioctl',
   'jq',
