@@ -7,6 +7,7 @@ class { 'homebrew':
 $pkgs = [
   'bash',
   'bash-completion',
+  'curl-openssl',
   'exa',
   'get_iplayer',
   'git',
