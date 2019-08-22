@@ -42,6 +42,7 @@ Docker stable
 Steam
 Dropbox
 ArtRage
+Transmission
 
 # VS Code
 (language support as and when it comes up)

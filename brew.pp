@@ -7,16 +7,20 @@ class { 'homebrew':
 $pkgs = [
   'bash',
   'bash-completion',
+  'buildifier', # formatting for bazel files
   'curl-openssl',
   'exa',
   'get_iplayer',
   'git',
   'golang',
+  'graphviz',
+  'grpcurl',
   'gpg',
   'htop',
   'hugo',
   'hyperkit', # docker-for-mac provides an ancient version of this, and puts it in /usr/local/bin too. We install this over the top, which doesnt seem to break docker-for-mac
   'imagemagick',
+  'iproute2mac',
   'istioctl',
   'jq',
   'kubernetes-cli',
@@ -47,6 +51,7 @@ $casks = [
 
 /* Taps
 * linuxkit/linuxkit --HEAD
+* instrumenta/instrumenta => kubeval, conftest
 */
 
 package { $pkgs:
