@@ -5,6 +5,7 @@ class { 'homebrew':
 }
 
 $pkgs = [
+  'awscli',
   'bash',
   'bash-completion',
   'buildifier', # formatting for bazel files
@@ -35,8 +36,10 @@ $pkgs = [
   'qemu',
   'rustup-init',
   'socat',
+  'stern',
   'terraform',
   'tmux',
+  'vault',
   'vim',
   'watch',
   'wget',
