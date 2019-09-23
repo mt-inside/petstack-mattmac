@@ -10,6 +10,8 @@ $pkgs = [
   'bash-completion',
   'buildifier', # formatting for bazel files
   'curl-openssl',
+  'direnv',
+  'etcd',
   'exa',
   'get_iplayer',
   'git',
@@ -28,6 +30,7 @@ $pkgs = [
   'kubernetes-helm',
   'mdcat',
   'mtr',
+  'nmap',
   'node',
   'openvpn',
   'packer',
