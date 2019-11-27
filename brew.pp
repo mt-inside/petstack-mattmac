@@ -28,6 +28,8 @@ $pkgs = [
   'iproute2mac',
   'istioctl',
   'jq',
+  'kubebuilder',
+  'kustomize', # needed by kube-builder
   'kubernetes-cli',
   'kubernetes-helm',
   'lolcat',
@@ -45,6 +47,7 @@ $pkgs = [
   'stern',
   'terraform',
   'tmux',
+  'tflint',
   'vault',
   'vim',
   'watch',
