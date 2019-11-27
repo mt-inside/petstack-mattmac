@@ -31,6 +31,8 @@ npm-check-updates
 gatsby
 
 # Downloads
+XCode (App Store app)
+* `xcode-select --install`
 VS Code
 Evernote
 Spotify
