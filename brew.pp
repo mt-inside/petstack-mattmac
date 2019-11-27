@@ -5,6 +5,7 @@ class { 'homebrew':
 }
 
 $pkgs = [
+  'asciinema',
   'awscli',
   'bash',
   'bash-completion',
@@ -13,6 +14,7 @@ $pkgs = [
   'direnv',
   'etcd',
   'exa',
+  'figlet',
   'get_iplayer',
   'git',
   'golang',
@@ -28,6 +30,7 @@ $pkgs = [
   'jq',
   'kubernetes-cli',
   'kubernetes-helm',
+  'lolcat',
   'mdcat',
   'mtr',
   'nmap',
