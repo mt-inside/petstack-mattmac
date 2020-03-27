@@ -15,6 +15,7 @@
   * puppet module install puppet-nodejs
 * Install yubico manager, PAM-login tool
   * configure yubikey: https://support.yubico.com/support/solutions/articles/15000015045-macos-logon-tool-configuration-guide
+* Install Wireshark
 
 # Brew packages
 under puppet

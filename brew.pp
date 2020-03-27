@@ -9,6 +9,7 @@ $pkgs = [
   'awscli',
   'bash',
   'bash-completion',
+  'broot',
   'buildifier', # formatting for bazel files
   'curl-openssl',
   'direnv',
@@ -22,13 +23,16 @@ $pkgs = [
   'grpcurl',
   'gpg',
   'htop',
+  'hub',
   'hugo',
   'hyperkit', # docker-for-mac provides an ancient version of this, and puts it in /usr/local/bin too. We install this over the top, which doesnt seem to break docker-for-mac
   'imagemagick',
   'iproute2mac',
   'istioctl',
   'jq',
+  'jsonnet',
   'kubebuilder',
+  'kubectx',
   'kustomize', # needed by kube-builder
   'kubernetes-cli',
   'kubernetes-helm',
@@ -43,6 +47,7 @@ $pkgs = [
   'pwgen',
   'qemu',
   'rustup-init',
+  'skaffold',
   'socat',
   'stern',
   'terraform',
@@ -50,6 +55,7 @@ $pkgs = [
   'tflint',
   'vault',
   'vim',
+  'wash',
   'watch',
   'wget',
   'youtube-dl',
@@ -59,11 +65,15 @@ $pkgs = [
 $casks = [
   'vagrant',
   'google-cloud-sdk',
+  'font-fira-code', # brew tap homebrew/cask-fonts
+  'osxfuse',
 ]
 
 /* Taps
 * linuxkit/linuxkit --HEAD
 * instrumenta/instrumenta => kubeval, conftest
+* brew install golangci/tap/golangci-lint
+* brew tap weaveworks/tap; brew install weaveworks/tap/eksctl
 */
 
 package { $pkgs:
