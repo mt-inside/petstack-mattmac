@@ -15,21 +15,12 @@
   * puppet module install puppet-nodejs
 * Install yubico manager, PAM-login tool
   * configure yubikey: https://support.yubico.com/support/solutions/articles/15000015045-macos-logon-tool-configuration-guide
-* Install Wireshark
 
-# Brew packages
-under puppet
+# Setup
+Run bash
 
-# Golang
-kind
-
-# Rust
-toolchain stable, nightly (run: rust-up init)
-
-# node (npm install -g)
-gulp-cli
-npm-check-updates
-gatsby
+# Pakages
+Run puppet / bash
 
 # Downloads
 XCode (App Store app)
@@ -46,6 +37,7 @@ Steam
 Dropbox
 ArtRage
 Transmission
+Wireshark
 
 # VS Code
 (language support as and when it comes up)
