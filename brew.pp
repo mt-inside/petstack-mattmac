@@ -16,6 +16,7 @@ $pkgs = [
   'direnv',
   'etcd',
   'exa',
+  'faas-cli', # openfaas
   'figlet',
   'get_iplayer',
   'git',
@@ -37,6 +38,7 @@ $pkgs = [
   'kustomize', # needed by kube-builder
   'kubernetes-cli',
   'kubernetes-helm',
+  'linkerd',
   'lolcat',
   'mdcat',
   'mtr',
