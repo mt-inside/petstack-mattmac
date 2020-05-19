@@ -1,3 +1,4 @@
+# Hi matt! re-do this in Nix. See if hashimoto has published anything on how he did it
 class { 'homebrew':
   user      => 'matt',
   group     => 'admin',
