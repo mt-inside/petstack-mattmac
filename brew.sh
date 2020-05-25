@@ -13,11 +13,13 @@ brew install \
   figlet \
   get_iplayer \
   git \
+  glances \
   golang \
   graphviz \
   grpcurl \
   gpg \
   htop \
+  httpie \
   hub \
   hugo \
   hyperkit \
@@ -26,6 +28,7 @@ brew install \
   istioctl \
   jq \
   jsonnet \
+  krew \
   kubebuilder \
   kubectx \
   kustomize \
