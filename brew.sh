@@ -28,6 +28,7 @@ brew install \
   istioctl \
   jq \
   jsonnet \
+  derailed/k9s \
   krew \
   kubebuilder \
   kubectx \
