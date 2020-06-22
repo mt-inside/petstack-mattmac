@@ -49,7 +49,9 @@ brew install \
   rustup-init \
   skaffold \
   socat \
+  speedtest-cli \
   stern \
+  datawire/blackbird/telepresence \
   terraform \
   tmux \
   tflint \
