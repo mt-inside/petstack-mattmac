@@ -25,6 +25,7 @@ Run puppet / bash
 # Downloads
 XCode (App Store app)
 * `xcode-select --install`
+
 VS Code
 Evernote
 Spotify
@@ -32,7 +33,7 @@ VLC
 Adobe
 iStat menus
 Geekbench
-Docker stable
+Docker edge
 Steam
 Dropbox
 ArtRage
