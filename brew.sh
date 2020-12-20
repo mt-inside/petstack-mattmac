@@ -3,50 +3,64 @@ brew install \
   awscli \
   bash \
   bash-completion \
+  bazel \
   broot \
   buildifier \
+  conftest \
+  curl \
   curl-openssl \
+  deno \
   direnv \
-  etcd \
   exa \
+  exiftool \
   faas-cli \
+  ffmpeg \
   figlet \
   get_iplayer \
   git \
   glances \
-  golang \
+  gnupg \
+  gnutls \
+  go \
   graphviz \
   grpcurl \
   gpg \
-  htop \
   httpie \
   hub \
   hugo \
   hyperkit \
   imagemagick \
+  iperf3 \
   iproute2mac \
   istioctl \
   jq \
   jsonnet \
   derailed/k9s \
   krew \
+  kube-ps1 \
   kubebuilder \
   kubectx \
-  kustomize \
   kubernetes-cli \
+  kustomize \
   kubernetes-helm \
   linkerd \
   lolcat \
   mdcat \
+  minikube \
   mtr \
   nmap \
   node \
+  opa \
   openvpn \
+  p7zip \
   packer \
   prettyping \
   pwgen \
+  python \
   qemu \
+  ruby \
   rustup-init \
+  screenfetch \
   skaffold \
   socat \
   speedtest-cli \
