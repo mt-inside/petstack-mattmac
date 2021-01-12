@@ -36,7 +36,6 @@ brew install \
   jq \
   jsonnet \
   derailed/k9s \
-  krew \
   kube-ps1 \
   kubebuilder \
   kubectx \

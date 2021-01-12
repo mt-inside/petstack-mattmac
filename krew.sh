@@ -13,3 +13,5 @@
 kubectl krew install sniff
 # kubectl krew install debug - use `kubectl alpha debug` instead
 kubectl krew install tree
+
+kubectl krew upgrade
