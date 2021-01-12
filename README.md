@@ -4,7 +4,7 @@
 # Prereqs
 * Change hostname
 * Copy over ssh priv key only; mode 0400
-* Install chrome
+* Install browser
   * Log in
 * Install iterm2
 * Install homebrew
@@ -32,15 +32,15 @@ Spotify
 VLC
 Adobe
 iStat menus
-Geekbench
 Docker edge
-Steam
 Dropbox
 ArtRage
 Transmission
 Wireshark
+Yubico athenticator
 
 # VS Code
 (language support as and when it comes up)
 docker
 vim
+livecode sharing extension thing
