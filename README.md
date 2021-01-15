@@ -1,4 +1,8 @@
 # TODO
+* just stick with shell for now, it's so easy
+  * all the package management stuff is idempotent
+  * look at something for config file frobbing (even if it's just having the files in here, detecting OS, and copying/symlinking them in)
+* consolidate the brew/arch/etc - some basharray / json of "base" packages, then each os can add,remove,rename.
 * fix this provider to use brew  https://github.com/voxpupuli/puppet-nodejs
 
 # Prereqs
