@@ -10,7 +10,7 @@ pacman -S \
     rofi \
     i2c-tools \
     scrot \
-    rxvt-unicode \
+    kitty \
     ttf-jetbrains-mono \
     ttf-font-awesome \
     i3status-rust \
