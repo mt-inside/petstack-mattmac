@@ -7,6 +7,7 @@ pacman -S \
     picom \
     redshift \
     feh \
+    dunst \
     xorg-xsetroot \
     xorg-xwininfo \
     xclip \
