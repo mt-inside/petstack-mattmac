@@ -7,6 +7,11 @@ pacman -S \
     picom \
     redshift \
     feh \
+    xorg-xsetroot \
+    xorg-xwininfo \
+    xclip \
+    xsel \
+    breeze-gtk \
     rofi \
     i2c-tools \
     scrot \
@@ -15,11 +20,15 @@ pacman -S \
     ttf-font-awesome \
     i3status-rust \
     vim \
+    font-manager \
     bazel \
+    pwgen \
+    strace \
     python2 \
     ethtool \
     iw \
     httpie \
+    transmission-qt \
     exa \
     go \
     make \
@@ -33,6 +42,7 @@ pacman -S \
     mdcat \
     tmux \
     gcc \
+    dnsutils \
     clang \
     qemu \
     libvirt \
