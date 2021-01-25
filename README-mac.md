@@ -19,18 +19,16 @@ echo $BASH_VERSION`
 * Change hostname
 * Install browser
   * Log in
+* Install Kitty terminal
 * Install tiling WM
-* Install puppet
-  * puppet module install thekevjames-homebrew
-  * puppet module install puppet-nodejs
 * Install yubico manager, PAM-login tool
   * configure yubikey: https://support.yubico.com/support/solutions/articles/15000015045-macos-logon-tool-configuration-guide
 
 # Setup
 Run bash
 
-# Pakages
-Run puppet / bash
+# Packages
+Run bash
 
 # Downloads
 XCode (App Store app)
