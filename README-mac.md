@@ -6,14 +6,21 @@
 * fix this provider to use brew  https://github.com/voxpupuli/puppet-nodejs
 
 # Prereqs
-* Change hostname
 * Copy over ssh priv key only; mode 0400
-* Install browser
-  * Log in
-* Install iterm2
-* Install homebrew
 * Clone githome
   * Follow instructions
+* Install homebrew
+* Make sure a recent (4.0+) version of bash is installed and is actually selected as your shell
+```bash
+sudo vim /etc/shells
+chsh -s /usr/local/bin/bash
+echo $BASH_VERSION`
+```
+* Change hostname
+* Install browser
+  * Log in
+* Install Kitty terminal
+* Install tiling WM
 * Install puppet
   * puppet module install thekevjames-homebrew
   * puppet module install puppet-nodejs
