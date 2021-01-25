@@ -59,7 +59,7 @@ brew install \
   qemu \
   ruby \
   rustup-init \
-  screenfetch \
+  neofetch \
   skaffold \
   socat \
   speedtest-cli \
@@ -78,4 +78,5 @@ brew install \
 brew cask install \
   vagrant \
   google-cloud-sdk \
-  osxfuse
+  osxfuse \
+  kitty
