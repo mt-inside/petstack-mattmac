@@ -19,7 +19,6 @@ echo $BASH_VERSION`
 * Change hostname
 * Install browser
   * Log in
-* Install Kitty terminal
 * Install tiling WM
 * Install puppet
   * puppet module install thekevjames-homebrew

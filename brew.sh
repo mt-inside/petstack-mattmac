@@ -1,4 +1,5 @@
 brew install \
+  alacritty \
   asciinema \
   awscli \
   bash \
@@ -6,7 +7,6 @@ brew install \
   bazel \
   broot \
   buildifier \
-  conftest \
   curl \
   curl-openssl \
   deno \
@@ -21,6 +21,7 @@ brew install \
   glances \
   gnupg \
   gnutls \
+  gnu-which \
   go \
   graphviz \
   grpcurl \
@@ -35,7 +36,7 @@ brew install \
   istioctl \
   jq \
   jsonnet \
-  derailed/k9s \
+  k9s \
   kube-ps1 \
   kubebuilder \
   kubectx \
@@ -46,6 +47,7 @@ brew install \
   lolcat \
   mdcat \
   minikube \
+  mpv \
   mtr \
   nmap \
   node \
@@ -64,7 +66,6 @@ brew install \
   socat \
   speedtest-cli \
   stern \
-  datawire/blackbird/telepresence \
   terraform \
   tmux \
   tflint \
@@ -75,8 +76,8 @@ brew install \
   youtube-dl \
   yq
 
-brew cask install \
+brew install --cask \
   vagrant \
   google-cloud-sdk \
   osxfuse \
-  kitty
+  homebrew/cask-fonts/font-jetbrains-mono-nerd-font
