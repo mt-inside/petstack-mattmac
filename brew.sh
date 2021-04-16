@@ -21,6 +21,7 @@ brew install \
   get_iplayer \
   git \
   git-delta \
+  hub \
   gnupg \
   gnutls \
   gnu-which \

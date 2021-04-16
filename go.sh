@@ -1,3 +1,5 @@
+go get -u golang.org/x/tools/... # godoc et al
+
 # krew bootstrapping (the krew plugin itself), is in krew.sh
 go get -v -u github.com/golangci/golangci-lint/cmd/golangci-lint
 go get -v -u github.com/linuxkit/linuxkit/src/cmd/linuxkit # is a brew tap but it's way out of date
@@ -5,6 +7,8 @@ go get -v -u sigs.k8s.io/kind
 go get -v -u github.com/mattolenik/hclq
 go get -v -u github.com/nitishm/engarde
 go get -v golang.org/x/tools/gopls@latest # no -u - why?
+go get -v -u github.com/docker/hub-tool
+go get -v -u github.com/erning/gorun
 
 # vim-go deps, as per :GoInstallBinaries (plugin/go.vim), as of Jan '21
 go get -u -v github.com/klauspost/asmfmt/cmd/asmfmt
