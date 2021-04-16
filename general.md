@@ -1,0 +1,1 @@
+firefox setting privacy.file_unique_origin=false

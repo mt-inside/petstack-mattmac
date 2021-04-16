@@ -1,0 +1,16 @@
+[Unit]
+Description=Register gorun with binfmt-misc
+
+[Service]
+User=root
+# NB: if the handler is already installed, you'll get "error file exists".
+# That's what errno is set to when echo calls write(), so you get a very misleading error message.
+# This is nothing to do with echo or the shell checking whether .../register exists, and no amount of +o noclobber will fix it.
+ExecStart=/usr/bin/sh -c "echo ':golang:E::go::/usr/local/bin/gorun:OC' > /proc/sys/fs/binfmt_misc/register"
+ExecStop=/usr/bin/sh -c "echo -1 > /proc/sys/fs/binfmt_misc/golang"
+Type=oneshot
+Restart=no
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
