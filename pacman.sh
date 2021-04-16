@@ -39,7 +39,6 @@ pacman -S \
     ninja \
     python-virtualenv \
     rustup \
-    glances \
     mdcat \
     tmux \
     gcc \

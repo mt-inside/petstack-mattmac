@@ -12,13 +12,15 @@ brew install \
   deno \
   direnv \
   exa \
+  fd \
+  rg \
   exiftool \
   faas-cli \
   ffmpeg \
   figlet \
   get_iplayer \
   git \
-  glances \
+  git-delta \
   gnupg \
   gnutls \
   gnu-which \
@@ -41,6 +43,7 @@ brew install \
   kubebuilder \
   kubectx \
   kubernetes-cli \
+  fluxcd/tap/flux \
   kustomize \
   kubernetes-helm \
   linkerd \
